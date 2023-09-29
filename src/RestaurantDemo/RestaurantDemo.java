@@ -15,7 +15,7 @@ public class RestaurantDemo {
         waiter.takeOrder(new Order_Sushi(sushiChef));
         waiter.takeOrder(new Order_Sashimi(sushiChef));
 
-        // RestaurantDemo.Waiter places the orders with the chefs
+        // Waiter places the orders with the chefs
         waiter.placeOrders();
     }
 }
